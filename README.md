@@ -1,4 +1,4 @@
-## An nginx config for your first million users
+## An nginx config for 2017
 
 nginx has [excellent official documentation](https://www.nginx.com/resources/wiki/start/) but putting all the logic together can take a while. Here's an `nginx.conf` with:
 
