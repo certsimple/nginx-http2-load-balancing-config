@@ -2,10 +2,10 @@
 
 nginx has [excellent official documentation](https://www.nginx.com/resources/wiki/start/) but putting all the logic together can take a while. Here's an `nginx.conf` with:
 
- - HTTP2
+ - HTTP/2
  - IPv6
  - Load balancing between multiple app servers
- - A sorry page
+ - A sorry page (shown if all the app servers go down)
  - Static content served on a separate server
  - HTML5 SSE support
  - Correct proxy headers for working GeoIP
